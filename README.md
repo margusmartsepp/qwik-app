@@ -24,14 +24,14 @@ A highly optimized web interface for LLM interactions built with Qwik and TypeSc
    npm install
    ```
 3. **Build the application**
-  ```bash
-  npm run build
-  ```
-3. **Start the application**
-  ```bash
-  npm start
-  ```
-4. **Development Commands**
+   ```bash
+   npm run build
+   ```
+4. **Start the application**
+   ```bash
+   npm start
+   ```
+5. **Development Commands**
    ```bash
    # Start development server
    npm run dev
@@ -43,7 +43,7 @@ A highly optimized web interface for LLM interactions built with Qwik and TypeSc
    npm run fmt
    ```
 
-5. **Environment Configuration**
+6. **Environment Configuration**
    ```bash
    # Required Node.js version
    node: "^18.17.0 || ^20.3.0 || >=21.0.0"
@@ -73,25 +73,6 @@ A highly optimized web interface for LLM interactions built with Qwik and TypeSc
    - Optimized client bundles
    - Service worker
    - Type definitions
-
-2. **GitHub Pages Deployment**
-   ```yaml
-   name: Deploy to GitHub Pages
-   on:
-     push:
-       branches: [ main ]
-   jobs:
-     build-and-deploy:
-       runs-on: ubuntu-latest
-       steps:
-         - uses: actions/checkout@v2
-         - uses: actions/setup-node@v2
-           with:
-             node-version: '18'
-         - run: npm ci
-         - run: npm run build
-         - uses: peaceiris/actions-gh-pages@v3
-   ```
 
 ## Performance Considerations
 
