@@ -1,4 +1,4 @@
-# LLM-FLOW
+# qwik-app: LLM-FLOW
 
 A highly optimized web interface for LLM interactions built with Qwik and TypeScript, focusing on performance and reactivity.
 
