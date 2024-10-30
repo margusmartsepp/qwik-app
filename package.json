@@ -1,6 +1,7 @@
 {
-  "name": "my-qwik-empty-starter",
-  "description": "Blank project with routing included",
+  "name": "llm-flow",
+  "version": "1.0.0",
+  "description": "A highly optimized web interface for LLM interactions",
   "engines": {
     "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
   },
@@ -24,7 +25,8 @@
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
-    "qwik": "qwik"
+    "qwik": "qwik",
+    "test": "vitest"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.9.1",
@@ -35,10 +37,13 @@
     "@typescript-eslint/parser": "7.16.1",
     "eslint": "8.57.0",
     "eslint-plugin-qwik": "^1.9.1",
+    "idb": "^7.1.1",
     "prettier": "3.3.3",
+    "rxjs": "^7.8.1",
     "typescript": "5.4.5",
     "undici": "*",
     "vite": "5.3.5",
     "vite-tsconfig-paths": "^4.2.1"
-  }
+  },
+  "license": "MIT"
 }
