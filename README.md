@@ -13,21 +13,29 @@ A highly optimized web interface for LLM interactions built with Qwik and TypeSc
 
 ## Development Setup
 
-1. **Installation**
+1. **Clone the repository**
    ```bash
-   npm create qwik@latest
-   cd llm-flow
-   npm install
+   git clone https://github.com/margusmartsepp/qwik-app.git
+   cd qwik-app
    ```
 
-2. **Development Commands**
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+3. **Build the application**
+  ```bash
+  npm run build
+  ```
+3. **Start the application**
+  ```bash
+  npm start
+  ```
+4. **Development Commands**
    ```bash
    # Start development server
    npm run dev
-
-   # Build for production
-   npm run build
-
+   
    # Run type checking
    npm run build.types
 
@@ -35,7 +43,7 @@ A highly optimized web interface for LLM interactions built with Qwik and TypeSc
    npm run fmt
    ```
 
-3. **Environment Configuration**
+5. **Environment Configuration**
    ```bash
    # Required Node.js version
    node: "^18.17.0 || ^20.3.0 || >=21.0.0"
